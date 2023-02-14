@@ -1,0 +1,93 @@
+
+.jumbotron {
+    background-image: url("./assets/cat-6747298.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 70%;
+    height: 100vh;
+    font-size: 'Raleway', sans-serif;
+  }
+
+  .jumbotron:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  .jumbotron h1 {
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+
+  .titulo {
+          font-family: 'Rubik Dirt', cursive;
+          z-index: 1;
+          color: #012b3a;
+        
+  }
+  
+.prueba {
+        font-size: 3rem;
+        font-family: 'Rubik Dirt', cursive;
+        z-index: 1;
+        color: #012b3a;
+      
+}
+.contacto {
+        font-size: 2rem;
+        font-family: 'Rubik Dirt', cursive;
+        z-index: 1;
+      
+}
+  
+  
+  .tracking-in-expand{animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both}
+
+  @keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+  .jumbotron p {
+    text-align: center;
+    color: white;
+  }
+  
+  .jumbotron a {
+    display: block;
+    margin: 0 auto;
+  }
+  
+/* Seccion 2 */
+
+.grilla {
+    background-color: #012e3f;
+    gap: 1;
+    color: white;
+    border-radius: 5px;
+}
+
+.grill div:hover {
+  color: #03668a;
+}
+
+.bolo {
+    color: #024058;
+}
+
+.bolo1 {
+    color: rgba(255, 255, 255, 0.822);
+}
+.bolo2 {
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.fondo {
+    background-color: #024058;
+}
+
+
+i:hover {
+  color: #03668a;
+}
